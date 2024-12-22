@@ -1,0 +1,56 @@
+{
+    "sdk_version": "1.0.0",
+    "alphacam_version": "2024",
+    "paths": {
+        "installation": "C:\\Program Files\\Hexagon\\ALPHACAM 2024",
+        "user_data": "F:\\LICOMDIR",
+        "core_libraries": {
+            "base": "C:\\Program Files\\Hexagon\\ALPHACAM 2024",
+            "addins": "C:\\Program Files\\Hexagon\\ALPHACAM 2024\\Add-Ins",
+            "dotnet": "C:\\Program Files\\Hexagon\\ALPHACAM 2024\\DotNetAdd-Ins"
+        },
+        "user_libraries": {
+            "macros": "F:\\LICOMDIR\\VBMacros",
+            "tools": {
+                "mtools": "F:\\LICOMDIR\\MTools",
+                "rtools": "F:\\LICOMDIR\\RTools",
+                "stools": "F:\\LICOMDIR\\STools",
+                "ttools": "F:\\LICOMDIR\\TTools"
+            }
+        },
+        "sdk": {
+            "root": "D:\\ALPHACAM API",
+            "bin": "D:\\ALPHACAM API\\bin",
+            "include": "D:\\ALPHACAM API\\include",
+            "lib": "D:\\ALPHACAM API\\lib",
+            "docs": "D:\\ALPHACAM API\\docs",
+            "samples": "D:\\ALPHACAM API\\samples",
+            "tests": "D:\\ALPHACAM API\\tests"
+        }
+    },
+    "dependencies": {
+        "core": [
+            "ACAM.dll",
+            "AcamAddIns.dll",
+            "AcamAddInsInterface.dll",
+            "AcamDBWrapper.dll",
+            "AlgoInterface.dll",
+            "GeoTools.dll",
+            "Primitives.dll"
+        ],
+        "automation": [
+            "ACAMAutomation.dll",
+            "LoadAddIn.dll",
+            "NestUtilities.dll",
+            "Analytics.dll"
+        ],
+        "interop": [
+            "Interop.AlphaCAMFeature.dll",
+            "Interop.AlphaCAMGeoUtilities.dll",
+            "Interop.AlphaCAMMill.dll",
+            "Interop.AlphaCAMNesting.dll",
+            "Interop.AlphaCAMParametric.dll",
+            "Interop.AlphaCAMPrimitives.dll"
+        ]
+    }
+}
